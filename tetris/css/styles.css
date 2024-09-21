@@ -1,0 +1,101 @@
+/* Do everything in this file */
+
+
+
+/* Subheadings */
+
+h2 {
+    border-bottom: 1px solid red;
+    clear: right;
+}
+
+/* Diagram */
+
+figure {
+    width: 40vw;
+    margin: 2em;
+    max-width: 650px;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+figure img {
+    width: 100%;
+}
+
+/* Tetriminos */
+
+#tetlist{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.tet, .tet.long, .tet.square {
+    float: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    flex: 0 1 300px;
+    /* border: 1px solid black; */
+
+    display: block;
+    text-align: center;
+}
+
+.tet img {
+    width: 60%;
+}
+
+.tet.long img {
+    width: 80%;
+}
+
+.tet.square img {
+    width: 40%;
+}
+
+.aliases {
+    text-align: left;
+    margin: 1em;
+}
+
+.name {
+    display: block;
+    margin: 1em;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    clear: left;
+    
+    /* 
+    
+    -- Relative Position -- 
+    position: relative;
+    bottom: 500px;
+
+    -- Absolute Position --
+    position: absolute;
+    top: 0px;
+
+    -- Fixed Position --
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    -- Below other elements --
+    z-index: -5;
+
+    */
+}
+
+header, main, footer {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}

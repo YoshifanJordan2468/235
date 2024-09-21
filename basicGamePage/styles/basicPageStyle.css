@@ -1,0 +1,47 @@
+html * {
+    font-family: "Press Start 2P", sans-serif;
+    color:#F8D1CF;
+    font-style: normal;
+  }
+
+body {
+    background-color:#F46257;
+}
+
+h1 {
+    font-weight: 400;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 100px;
+    border-bottom: 5px solid black;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-size: large;
+    margin-left: 50px;
+}
+
+ul {
+    font-size: large;
+    margin-left: 30px;
+}
+
+blockquote {
+    background-color: black;
+    padding: 1rem;
+}
+
+
+img.side {
+    float:right; 
+    margin: 0 12px;
+}
+
+a {
+    color:#742B26;
+}

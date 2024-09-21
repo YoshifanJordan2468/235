@@ -1,0 +1,66 @@
+/* Do everything in this file */
+
+
+
+/* Subheadings */
+
+h2 {
+    border-bottom: 1px solid red;
+    clear: right;
+}
+
+/* Diagram */
+
+figure {
+    float: right;
+    width: 40vw;
+    margin: 2em;
+}
+
+figure img {
+    width: 35vw;
+}
+
+/* Tetriminos */
+
+.tet, .tetlong, .tetsquare {
+    float: left;
+    width: 10rem;
+    margin: 1rem;
+    /* border: 1px solid black; */
+}
+
+div img {
+    width: 10rem;
+}
+
+/* Footer */
+
+footer {
+    clear: left;
+
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    
+    /* 
+    
+    -- Relative Position -- 
+    position: relative;
+    bottom: 500px;
+
+    -- Absolute Position --
+    position: absolute;
+    top: 0px;
+
+    -- Fixed Position --
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    -- Below other elements --
+    z-index: -5;
+
+    */
+    
+}
