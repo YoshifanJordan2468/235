@@ -1,0 +1,63 @@
+/* Headings */
+
+h1 {
+    font-size: 80px;
+
+    width: 80vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/* Project Section */
+
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+
+    margin: 1rem;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: 200;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: lightblue;
+}
+
+.proj {
+    /* border: 5px solid black; */
+
+    text-align: center;
+    margin: 3em;
+    
+
+    background-color: aliceblue;
+    
+    flex: 1 1 200px;
+}
+
+
+
+/* Header/Body/Footer */
+
+header{
+    border-bottom: 5px solid black;
+}
+
+body{
+
+}
+
+footer{
+    border-top: 5px solid black;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
